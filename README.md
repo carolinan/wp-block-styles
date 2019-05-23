@@ -54,7 +54,7 @@ Don't use two separate js files and two css files for such minor changes! Or eve
 
 # How to contribute
 
-You are welcome to submitt issues, ideas and pull requests.
+You are welcome to submit issues, ideas and pull requests.
 -If you would like to add a style, you do not need to open an issue first, you can simply do a pr.
 
 
