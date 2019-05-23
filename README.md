@@ -54,4 +54,4 @@ You are welcome to submitt issues, ideas and pull requests.
 
 # Naming
 
-Please select a short but descriptive names for the block styles.
+Please select a short but descriptive name for the block styles.
