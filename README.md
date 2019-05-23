@@ -7,7 +7,7 @@ This is only the beginning of a library of custom block styles.
 
 The block styles will be divided into their respective categories and blocks.
 
-Each block style will be placed in their own folder, and consist of:
+Each block style will be placed in its own folder, and consist of:
 
 A PHP file for enqueuing block files.
 
