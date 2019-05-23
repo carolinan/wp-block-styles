@@ -1,0 +1,77 @@
+.is-style-slug-hide-caption figcaption {
+	display: none;
+}
+
+.is-style-slug-shadow-inset {
+	box-shadow: inset 0 0 10px 0 rgba(0,0,0,0.2);
+	padding: 16px;
+}
+
+.is-style-slug-shadow {
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+	padding: 16px;
+}
+
+.is-style-slug-notice-warning {
+	background: #fff3cd url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><rect x='0' fill='none' width='20' height='20'/><path d='M10 2c4.42 0 8 3.58 8 8s-3.58 8-8 8-8-3.58-8-8 3.58-8 8-8zm1.13 9.38l.35-6.46H8.52l.35 6.46h2.26zm-.09 3.36c.24-.23.37-.55.37-.96 0-.42-.12-.74-.36-.97s-.59-.35-1.06-.35-.82.12-1.07.35-.37.55-.37.97c0 .41.13.73.38.96.26.23.61.34 1.06.34s.8-.11 1.05-.34z'/></svg>") no-repeat;
+	background-size: 50px;
+	min-height: 60px;
+	background-position: 10px center;
+	border: 1px solid rgb(0,0,0,0.1);
+	border-radius: 4px;
+	padding: 16px 16px 16px 70px;
+}
+
+.is-style-slug-notice-success {
+	background: #d4edda url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><rect x='0' fill='none' width='20' height='20'/><path d='M7 5.2c1.1 0 2 .89 2 2 0 .37-.11.71-.28 1C8.72 8.2 8 8 7 8s-1.72.2-1.72.2c-.17-.29-.28-.63-.28-1 0-1.11.9-2 2-2zm6 0c1.11 0 2 .89 2 2 0 .37-.11.71-.28 1 0 0-.72-.2-1.72-.2s-1.72.2-1.72.2c-.17-.29-.28-.63-.28-1 0-1.11.89-2 2-2zm-3 13.7c3.72 0 7.03-2.36 8.23-5.88l-1.32-.46C15.9 15.52 13.12 17.5 10 17.5s-5.9-1.98-6.91-4.94l-1.32.46c1.2 3.52 4.51 5.88 8.23 5.88z'/></svg>") no-repeat;
+	background-size: 50px;
+	min-height: 60px;
+	background-position: 10px center;
+	border: 1px solid rgb(0,0,0,0.1);
+	border-radius: 4px;
+	padding: 16px 16px 16px 70px;
+}
+
+.is-style-slug-notice-question {
+	background: #e6e0f7 url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><rect x='0' fill='none' width='20' height='20'/><path d='M17 10c0-3.87-3.14-7-7-7-3.87 0-7 3.13-7 7s3.13 7 7 7c3.86 0 7-3.13 7-7zm-6.3 1.48H9.14v-.43c0-.38.08-.7.24-.98s.46-.57.88-.89c.41-.29.68-.53.81-.71.14-.18.2-.39.2-.62 0-.25-.09-.44-.28-.58-.19-.13-.45-.19-.79-.19-.58 0-1.25.19-2 .57l-.64-1.28c.87-.49 1.8-.74 2.77-.74.81 0 1.45.2 1.92.58.48.39.71.91.71 1.55 0 .43-.09.8-.29 1.11-.19.32-.57.67-1.11 1.06-.38.28-.61.49-.71.63-.1.15-.15.34-.15.57v.35zm-1.47 2.74c-.18-.17-.27-.42-.27-.73 0-.33.08-.58.26-.75s.43-.25.77-.25c.32 0 .57.09.75.26s.27.42.27.74c0 .3-.09.55-.27.72-.18.18-.43.27-.75.27-.33 0-.58-.09-.76-.26z'/></svg>") no-repeat;
+	background-size: 50px;
+	min-height: 60px;
+	background-position: 10px center;
+	border: 1px solid rgb(0,0,0,0.1);
+	border-radius: 4px;
+	padding: 16px 16px 16px 70px;
+}
+
+.is-style-slug-card {
+	box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+	padding: 16px;
+	border-radius: 4px;
+}
+
+
+.is-style-slug-filter-grayscale img {
+	filter: grayscale(100%);
+}
+
+.is-style-slug-filter-sepia img {
+	filter:sepia(90%);
+}
+
+.is-style-slug-shadow img {
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.6);
+}
+
+/**
+* Credits: https://github.com/bennettfeely/Clippy
+*/
+.is-style-slug-star img {
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.is-style-slug-circular img {
+	border-radius: 50%;
+}
+
+.is-style-slug-triangular img {
+	clip-path: polygon(50% 5%, 0% 100%, 100% 100%);
+}
