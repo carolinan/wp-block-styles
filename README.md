@@ -28,7 +28,7 @@ Preview of the paragraph "Notice: Success" style example:
 
 # How to use
 
-To test all the blocks, you do not need to download the entire project.
+To test all the block styles, you do not need to download the entire project.
 Instead download the following files from the main directory:
 
 wp-block-styles.php, all-block-styles.css, all-block-styles.js.
@@ -38,7 +38,7 @@ Rename the prefix and the text domain.
 
 
 
-To test individual blocks, select the folder for the category that your block type is in. Then select the block type.
+To test individual block styles, select the folder for the category that your block type is in. Then select the block type.
 
 For example, if you are looking for custom styles for images, you would open common -> images and select the style you are interested in.
 
