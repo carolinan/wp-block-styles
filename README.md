@@ -1,12 +1,13 @@
 # wp-block-styles
-WP Block styles are custom styles for existing blocks in the WordPress block editor.
+WP Block styles are custom styles for existing blocks in the WordPress editor.
 
 
-This is only the beginning of a library of custom blockstyles.
+# The master plan
+This is only the beginning of a library of custom block styles.
 
 The block styles will be divided into their respective categories and blocks.
 
-Each blockstyle will be placed in their own folder, and consist of:
+Each block style will be placed in their own folder, and consist of:
 
 A PHP file for enqueuing block files.
 
@@ -16,6 +17,21 @@ A css file with the actual style.
 
 A png file with a preview of the style.
 
+
+
+# How to use
+
+Select the folder for the category that your block type is in. Then select the block type.
+
+For example, if you are looking for custom styles for images, you would open common -> images and select the style you are interested in.
+
+When using the code, you need to update the prefix and the text domain.
+The PHP code can be copied and pasted into your theme file, or, if you want to use it as a separate file, 
+make sure that you include it.
+Note: The PHP code is intended for themes and uses 'get_theme_file_uri'.
+
+And, if you are using more than one block style, please remember to combine them into one file: 
+Don't use two separate js files and two css files for such minor changes! Or even better, add them to your themes existing files.
 
 # How to contribute
 
