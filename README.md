@@ -26,10 +26,4 @@ You are welcome to submitt issues, ideas and pull requests.
 # Naming
 
 Please select a short but descriptive names for the block styles.
-Use the block slug for the folder name and as a prefix for the file names.
-
-Example
-
-
-
 
