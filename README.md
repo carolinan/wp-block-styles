@@ -17,7 +17,8 @@ A css file with the actual style.
 
 A png file with a preview of the style.
 
-
+Preview of the image shadow block style example:
+![Shadow block style preview](https://github.com/carolinan/wp-block-styles/blob/master/preview.png)
 
 # How to use
 
