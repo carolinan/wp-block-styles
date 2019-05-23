@@ -21,17 +21,29 @@ A png file with a preview of the style.
 
 # How to use
 
-Select the folder for the category that your block type is in. Then select the block type.
+To test all the blocks, you do not need to download the entire project.
+Instead download the following files from the main directory:
+
+wp-block-styles.php, all-block-styles.css, all-block-styles.js.
+
+Place the files in your theme directory. Include the wp-block-styles.php, or copy the code from the file to your themes functions.php file.
+Rename the prefix and the text domain.
+
+
+
+To test individual blocks, select the folder for the category that your block type is in. Then select the block type.
 
 For example, if you are looking for custom styles for images, you would open common -> images and select the style you are interested in.
 
 When using the code, you need to update the prefix and the text domain.
 The PHP code can be copied and pasted into your theme file, or, if you want to use it as a separate file, 
 make sure that you include it.
+
+
 Note: The PHP code is intended for themes and uses 'get_theme_file_uri'.
 
 And, if you are using more than one block style, please remember to combine them into one file: 
-Don't use two separate js files and two css files for such minor changes! Or even better, add them to your themes existing files.
+Don't use two separate js files and two css files for such minor changes! Or even better, add the code to your themes existing files.
 
 # How to contribute
 
@@ -42,4 +54,3 @@ You are welcome to submitt issues, ideas and pull requests.
 # Naming
 
 Please select a short but descriptive names for the block styles.
-
