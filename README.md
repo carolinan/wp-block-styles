@@ -17,8 +17,14 @@ A css file with the actual style.
 
 A png file with a preview of the style.
 
+# Previews
+
 Preview of the image shadow block style example:
 ![Shadow block style preview](https://github.com/carolinan/wp-block-styles/blob/master/preview.png)
+
+Preview of the paragraph "Notice: Success" style example:
+![Success block style preview](https://github.com/carolinan/wp-block-styles/blob/master/common/paragraph/notice-success/preview-notice-success.png)
+
 
 # How to use
 
